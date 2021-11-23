@@ -63,7 +63,6 @@ async def RiZoeLX():
             botid = telethon.utils.get_peer_id(botme)
             SUDO_USERS.append(botid)
         except Exception as e:
-            Riz = "BOT_TOKEN"
             print(e)
             pass
     else:
