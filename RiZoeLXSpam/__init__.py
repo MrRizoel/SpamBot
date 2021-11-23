@@ -7,7 +7,6 @@ import random
 import asyncio
 import telethon.utils
 from telethon import TelegramClient, events
-from telethon.Tokens import StringToken
 from decouple import config
 from os import getenv
 import logging
@@ -42,9 +41,6 @@ if 1517994352 not in SUDO_USERS:
     SUDO_USERS.append(1517994352)
 
 # Token
-
-Riz = TelegramClient('Riz', API_ID, API_HASH).start(bot_token=BOT_TOKEN)
-
 async def RiZoeLX():
     global Riz
     global Riz2
