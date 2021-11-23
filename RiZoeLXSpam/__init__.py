@@ -58,7 +58,6 @@ async def RiZoeLX():
         Riz = TelegramClient('Riz', API_ID, API_HASH).start(bot_token=BOT_TOKEN)
         try:
             print("Booting Up The Client 1")
-            await Riz.start()
             botme = await Riz.get_me()
             botid = telethon.utils.get_peer_id(botme)
             SUDO_USERS.append(botid)
