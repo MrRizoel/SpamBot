@@ -25,85 +25,32 @@ for name in files:
 print("RiZoeL Bot Spam Successfully deployed -!")
 print("Enjoy! Do visit @RiZoeLX")
 
-if len(argv) not in (1, 3, 4):
-    try:
-        Riz.disconnect()
-    except Exception as e:
-        pass
-    try:
-        Riz2.disconnect()
-    except Exception as e:
-        pass
-    try:
-        Riz3.disconnect()
-    except Exception as e:
-        pass
-    try:
-        Riz4.disconnect()
-    except Exception as e:
-        pass
-    try:
-        Riz5.disconnect()
-    except Exception as e:
-        pass
-    try:
-        Riz6.disconnect()
-    except Exception as e:
-        pass
-    try:
-        Riz7.disconnect()
-    except Exception as e:
-        pass
-    try:
-        Riz8.disconnect()
-    except Exception as e:
-        pass
-    try:
-        Riz9.disconnect()
-    except Exception as e:
-        pass
-    try:
-        Riz10.disconnect()
-    except Exception as e:
-        pass
-else:
-    try:
-        Riz.run_until_disconnected()
-    except Exception as e:
-        pass
-    try:
-        Riz2.run_until_disconnected()
-    except Exception as e:
-        pass
-    try:
-        Riz3.run_until_disconnected()
-    except Exception as e:
-        pass
-    try:
-        Riz4.run_until_disconnected()
-    except Exception as e:
-        pass
-    try:
-        Riz5.run_until_disconnected()
-    except Exception as e:
-        pass
-    try:
-        Riz6.run_until_disconnected()
-    except Exception as e:
-        pass
-    try:
-        Riz7.run_until_disconnected()
-    except Exception as e:
-        pass
-    try:
-        Riz8.run_until_disconnected()
-    except Exception as e:
-        pass
-    try:
-        Riz9.run_until_disconnected()
-    except Exception as e:
-        pass
-    try:
-        Riz10.run_until_disconnected()
-    except Exception as e:
-        pass
+if __name__ == "__main__":
+    Riz.run_until_disconnected()
+    
+if __name__ == "__main__":
+    Riz2.run_until_disconnected()
+
+if __name__ == "__main__":
+    Riz3.run_until_disconnected()
+    
+if __name__ == "__main__":
+    Riz4.run_until_disconnected()
+
+if __name__ == "__main__":
+    Riz5.run_until_disconnected()
+    
+if __name__ == "__main__":
+    Riz6.run_until_disconnected()
+    
+if __name__ == "__main__":
+    Riz7.run_until_disconnected()
+
+if __name__ == "__main__":
+    Riz8.run_until_disconnected()
+    
+if __name__ == "__main__":
+    Riz9.run_until_disconnected()
+
+if __name__ == "__main__":
+    Riz10.run_until_disconnected()    
