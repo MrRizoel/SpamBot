@@ -58,9 +58,6 @@ async def RiZoeLX():
         Riz = TelegramClient('Riz', API_ID, API_HASH).start(bot_token=BOT_TOKEN)
         try:
             print("Booting Up The Client 1")
-            botme = await Riz.get_me()
-            botid = telethon.utils.get_peer_id(botme)
-            SUDO_USERS.append(botid)
         except Exception as e:
             print(e)
             pass
@@ -77,10 +74,6 @@ async def RiZoeLX():
         Riz2 = TelegramClient('Riz2', API_ID, API_HASH).start(bot_token=BOT_TOKEN2)
         try:
             print("Booting Up The Client 2")
-            await Riz2.start()
-            botme = await Riz2.get_me()
-            botid = telethon.utils.get_peer_id(botme)
-            SUDO_USERS.append(botid)
         except Exception as e:
             print(e)
             pass
@@ -98,10 +91,6 @@ async def RiZoeLX():
         Riz3 = TelegramClient('Riz3', API_ID, API_HASH).start(bot_token=BOT_TOKEN3)
         try:
             print("Booting Up The Client 3")
-            await  Riz3.start()
-            botme = await Riz3.get_me()
-            botid = telethon.utils.get_peer_id(botme)
-            SUDO_USERS.append(botid)
         except Exception as e:
             print(e)
             pass
@@ -119,10 +108,6 @@ async def RiZoeLX():
         Riz4 = TelegramClient('Riz4', API_ID, API_HASH).start(bot_token=BOT_TOKEN4)
         try:
             print("Booting Up The Client 4")
-            await Riz4.start()
-            botme = await Riz4.get_me()
-            botid = telethon.utils.get_peer_id(botme)
-            SUDO_USERS.append(botid)
         except Exception as e:
             print(e)
             pass
@@ -140,10 +125,6 @@ async def RiZoeLX():
         Riz5 = TelegramClient('Riz5', API_ID, API_HASH).start(bot_token=BOT_TOKEN5)
         try:
             print("Booting Up The Client 5")
-            await Riz5.start()
-            botme = await Riz5.get_me()
-            botid = telethon.utils.get_peer_id(botme)
-            SUDO_USERS.append(botid)
         except Exception as e:
             print(e)
             pass
@@ -161,10 +142,6 @@ async def RiZoeLX():
         Riz6 = TelegramClient('Riz6', API_ID, API_HASH).start(bot_token=BOT_TOKEN6)
         try:
             print("Booting Up The Client 6")
-            await Riz6.start()
-            botme = await Riz6.get_me()
-            botid = telethon.utils.get_peer_id(botme)
-            SUDO_USERS.append(botid)
         except Exception as e:
             print(e)
             pass
@@ -182,10 +159,6 @@ async def RiZoeLX():
         Riz7 = TelegramClient('Riz7', API_ID, API_HASH).start(bot_token=BOT_TOKEN7)
         try:
             print("Booting Up The Client 7")
-            await Riz7.start()
-            botme = await Riz7.get_me()
-            botid = telethon.utils.get_peer_id(botme)
-            SUDO_USERS.append(botid)
         except Exception as e:
             print(e)
             pass
@@ -204,10 +177,6 @@ async def RiZoeLX():
         Riz8 = TelegramClient('Riz8', API_ID, API_HASH).start(bot_token=BOT_TOKEN8)
         try:
             print("Booting Up The Client 8")
-            await Riz8.start()
-            botme = await Riz8.get_me()
-            botid = telethon.utils.get_peer_id(botme)
-            SUDO_USERS.append(botid)
         except Exception as e:
             print(e)
             pass
@@ -225,10 +194,6 @@ async def RiZoeLX():
         Riz9 = TelegramClient('Riz9', API_ID, API_HASH).start(bot_token=BOT_TOKEN9)
         try:
             print("Booting Up The Client 9")
-            await Riz9.start()
-            botme = await Riz9.get_me()
-            botid = telethon.utils.get_peer_id(botme)
-            SUDO_USERS.append(botid)
         except Exception as e:
             print(e)
             pass
@@ -247,10 +212,6 @@ async def RiZoeLX():
         Riz10 = TelegramClient('Riz10', API_ID, API_HASH).start(bot_token=BOT_TOKEN10)
         try:
             print("Booting Up The Client 10")
-            await Riz10.start()
-            botme = await Riz10.get_me()
-            botid = telethon.utils.get_peer_id(botme)
-            SUDO_USERS.append(botid)
         except Exception as e:
             print(e)
             pass
@@ -262,7 +223,6 @@ async def RiZoeLX():
             await Riz10.start()
         except Exception as e:
             pass 
-
 
 loop = asyncio.get_event_loop()
 loop.run_until_complete(RiZoeLX())
