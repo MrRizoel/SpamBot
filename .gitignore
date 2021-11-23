@@ -1,0 +1,4 @@
+.env
+__pycache__/
+Riz.session
+Riz.session-journal
