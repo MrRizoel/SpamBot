@@ -24,6 +24,6 @@ async def unlimitedspam(event):
       x = None
       while x == None:
         await event.client.send_message(event.chat, op)
-        await asyncio.sleep(2)
+        await asyncio.sleep(0.3)
     except Exception as e:
       await event.reply("Oops!! Something went wrong, Report In @DNHxHELl\n\n" + str(e))
