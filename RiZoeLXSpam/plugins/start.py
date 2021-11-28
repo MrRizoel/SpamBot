@@ -30,7 +30,7 @@ async def start(event):
        firstname = replied_user.user.first_name
        await Riz.send_file(TheRiZoeL,
                 RIZ_IMG,
-                caption=✨ **Hello, {firstname} ! Nice To Meet You, Well I Am {bot_id}, An Powerfull Spam Bot.** \n\n**If You Want Your Own Spam Bots You Can Deploy From Button Below.** \n\n**𝑷𝒐𝒘𝒆𝒓𝒆𝒅 𝑩𝒚 [𝑹𝒊𝒁𝒐𝒆𝑳 𝑿️](https://t.me/RiZoeLX)**, 
+                caption=**Hello, {firstname} ! Nice To Meet You, Well I Am {bot_id}, An Powerfull Spam Bot.** \n\n**If You Want Your Own Spam Bots You Can Deploy From Button Below.** \n\n**𝑷𝒐𝒘𝒆𝒓𝒆𝒅 𝑩𝒚 [𝑹𝒊𝒁𝒐𝒆𝑳 𝑿️](https://t.me/RiZoeLX)**, 
                 buttons=Riz_Button)
                 
 @Riz2.on(events.NewMessage(pattern="/start"))
@@ -44,7 +44,7 @@ async def start(event):
        firstname = replied_user.user.first_name
        await Riz2.send_file(TheRiZoeL,
                 RIZ_IMG,
-                caption=✨ **Hello, {firstname} ! Nice To Meet You, Well I Am {bot_id}, An Powerfull Spam Bot.** \n\n**If You Want Your Own Spam Bots You Can Deploy From Button Below.** \n\n**𝑷𝒐𝒘𝒆𝒓𝒆𝒅 𝑩𝒚 [𝑹𝒊𝒁𝒐𝒆𝑳 𝑿️](https://t.me/RiZoeLX)**, 
+                caption=**Hello, {firstname} ! Nice To Meet You, Well I Am {bot_id}, An Powerfull Spam Bot.** \n\n**If You Want Your Own Spam Bots You Can Deploy From Button Below.** \n\n**𝑷𝒐𝒘𝒆𝒓𝒆𝒅 𝑩𝒚 [𝑹𝒊𝒁𝒐𝒆𝑳 𝑿️](https://t.me/RiZoeLX)**, 
                 buttons=Riz_Button)      
  
 @Riz3.on(events.NewMessage(pattern="/start"))
@@ -58,7 +58,7 @@ async def start(event):
        firstname = replied_user.user.first_name
        await Riz3.send_file(TheRiZoeL,
                 RIZ_IMG,
-                caption=✨ **Hello, {firstname} ! Nice To Meet You, Well I Am {bot_id}, An Powerfull Spam Bot.** \n\n**If You Want Your Own Spam Bots You Can Deploy From Button Below.** \n\n**𝑷𝒐𝒘𝒆𝒓𝒆𝒅 𝑩𝒚 [𝑹𝒊𝒁𝒐𝒆𝑳 𝑿️](https://t.me/RiZoeLX)**, 
+                caption=**Hello, {firstname} ! Nice To Meet You, Well I Am {bot_id}, An Powerfull Spam Bot.** \n\n**If You Want Your Own Spam Bots You Can Deploy From Button Below.** \n\n**𝑷𝒐𝒘𝒆𝒓𝒆𝒅 𝑩𝒚 [𝑹𝒊𝒁𝒐𝒆𝑳 𝑿️](https://t.me/RiZoeLX)**, 
                 buttons=Riz_Button)
                 
 @Riz4.on(events.NewMessage(pattern="/start"))
@@ -72,7 +72,7 @@ async def start(event):
        firstname = replied_user.user.first_name
        await Riz4.send_file(TheRiZoeL,
                 RIZ_IMG,
-                caption=✨ **Hello, {firstname} ! Nice To Meet You, Well I Am {bot_id}, An Powerfull Spam Bot.** \n\n**If You Want Your Own Spam Bots You Can Deploy From Button Below.** \n\n**𝑷𝒐𝒘𝒆𝒓𝒆𝒅 𝑩𝒚 [𝑹𝒊𝒁𝒐𝒆𝑳 𝑿️](https://t.me/RiZoeLX)**, 
+                caption=**Hello, {firstname} ! Nice To Meet You, Well I Am {bot_id}, An Powerfull Spam Bot.** \n\n**If You Want Your Own Spam Bots You Can Deploy From Button Below.** \n\n**𝑷𝒐𝒘𝒆𝒓𝒆𝒅 𝑩𝒚 [𝑹𝒊𝒁𝒐𝒆𝑳 𝑿️](https://t.me/RiZoeLX)**, 
                 buttons=Riz_Button)  
 
 @Riz5.on(events.NewMessage(pattern="/start"))
@@ -86,7 +86,7 @@ async def start(event):
        firstname = replied_user.user.first_name
        await Riz5.send_file(TheRiZoeL,
                 RIZ_IMG,
-                caption=✨ **Hello, {firstname} ! Nice To Meet You, Well I Am {bot_id}, An Powerfull Spam Bot.** \n\n**If You Want Your Own Spam Bots You Can Deploy From Button Below.** \n\n**𝑷𝒐𝒘𝒆𝒓𝒆𝒅 𝑩𝒚 [𝑹𝒊𝒁𝒐𝒆𝑳 𝑿️](https://t.me/RiZoeLX)**, 
+                caption=**Hello, {firstname} ! Nice To Meet You, Well I Am {bot_id}, An Powerfull Spam Bot.** \n\n**If You Want Your Own Spam Bots You Can Deploy From Button Below.** \n\n**𝑷𝒐𝒘𝒆𝒓𝒆𝒅 𝑩𝒚 [𝑹𝒊𝒁𝒐𝒆𝑳 𝑿️](https://t.me/RiZoeLX)**, 
                 buttons=Riz_Button)
 
 @Riz6.on(events.NewMessage(pattern="/start"))
@@ -100,7 +100,7 @@ async def start(event):
        firstname = replied_user.user.first_name
        await Riz6.send_file(TheRiZoeL,
                 RIZ_IMG,
-                caption=✨ **Hello, {firstname} ! Nice To Meet You, Well I Am {bot_id}, An Powerfull Spam Bot.** \n\n**If You Want Your Own Spam Bots You Can Deploy From Button Below.** \n\n**𝑷𝒐𝒘𝒆𝒓𝒆𝒅 𝑩𝒚 [𝑹𝒊𝒁𝒐𝒆𝑳 𝑿️](https://t.me/RiZoeLX)**, 
+                caption=**Hello, {firstname} ! Nice To Meet You, Well I Am {bot_id}, An Powerfull Spam Bot.** \n\n**If You Want Your Own Spam Bots You Can Deploy From Button Below.** \n\n**𝑷𝒐𝒘𝒆𝒓𝒆𝒅 𝑩𝒚 [𝑹𝒊𝒁𝒐𝒆𝑳 𝑿️](https://t.me/RiZoeLX)**, 
                 buttons=Riz_Button)       
 
 @Riz7.on(events.NewMessage(pattern="/start"))
@@ -114,7 +114,7 @@ async def start(event):
        firstname = replied_user.user.first_name
        await Riz7.send_file(TheRiZoeL,
                 RIZ_IMG,
-                caption=✨ **Hello, {firstname} ! Nice To Meet You, Well I Am {bot_id}, An Powerfull Spam Bot.** \n\n**If You Want Your Own Spam Bots You Can Deploy From Button Below.** \n\n**𝑷𝒐𝒘𝒆𝒓𝒆𝒅 𝑩𝒚 [𝑹𝒊𝒁𝒐𝒆𝑳 𝑿️](https://t.me/RiZoeLX)**, 
+                caption=**Hello, {firstname} ! Nice To Meet You, Well I Am {bot_id}, An Powerfull Spam Bot.** \n\n**If You Want Your Own Spam Bots You Can Deploy From Button Below.** \n\n**𝑷𝒐𝒘𝒆𝒓𝒆𝒅 𝑩𝒚 [𝑹𝒊𝒁𝒐𝒆𝑳 𝑿️](https://t.me/RiZoeLX)**, 
                 buttons=Riz_Button)
 
 @Riz8.on(events.NewMessage(pattern="/start"))
@@ -128,7 +128,7 @@ async def start(event):
        firstname = replied_user.user.first_name
        await Riz8.send_file(TheRiZoeL,
                 RIZ_IMG,
-                caption=✨ **Hello, {firstname} ! Nice To Meet You, Well I Am {bot_id}, An Powerfull Spam Bot.** \n\n**If You Want Your Own Spam Bots You Can Deploy From Button Below.** \n\n**𝑷𝒐𝒘𝒆𝒓𝒆𝒅 𝑩𝒚 [𝑹𝒊𝒁𝒐𝒆𝑳 𝑿️](https://t.me/RiZoeLX)**, 
+                caption=**Hello, {firstname} ! Nice To Meet You, Well I Am {bot_id}, An Powerfull Spam Bot.** \n\n**If You Want Your Own Spam Bots You Can Deploy From Button Below.** \n\n**𝑷𝒐𝒘𝒆𝒓𝒆𝒅 𝑩𝒚 [𝑹𝒊𝒁𝒐𝒆𝑳 𝑿️](https://t.me/RiZoeLX)**, 
                 buttons=Riz_Button)
                 
 @Riz9.on(events.NewMessage(pattern="/start"))
@@ -142,7 +142,7 @@ async def start(event):
        firstname = replied_user.user.first_name
        await Riz9.send_file(TheRiZoeL,
                 RIZ_IMG,
-                caption=✨ **Hello, {firstname} ! Nice To Meet You, Well I Am {bot_id}, An Powerfull Spam Bot.** \n\n**If You Want Your Own Spam Bots You Can Deploy From Button Below.** \n\n**𝑷𝒐𝒘𝒆𝒓𝒆𝒅 𝑩𝒚 [𝑹𝒊𝒁𝒐𝒆𝑳 𝑿️](https://t.me/RiZoeLX)**, 
+                caption=**Hello, {firstname} ! Nice To Meet You, Well I Am {bot_id}, An Powerfull Spam Bot.** \n\n**If You Want Your Own Spam Bots You Can Deploy From Button Below.** \n\n**𝑷𝒐𝒘𝒆𝒓𝒆𝒅 𝑩𝒚 [𝑹𝒊𝒁𝒐𝒆𝑳 𝑿️](https://t.me/RiZoeLX)**, 
                 buttons=Riz_Button)
                 
 @Riz10.on(events.NewMessage(pattern="/start"))
@@ -156,5 +156,5 @@ async def start(event):
        firstname = replied_user.user.first_name
        await Riz10.send_file(TheRiZoeL,
                 RIZ_IMG,
-                caption=✨ **Hello, {firstname} ! Nice To Meet You, Well I Am {bot_id}, An Powerfull Spam Bot.** \n\n**If You Want Your Own Spam Bots You Can Deploy From Button Below.** \n\n**𝑷𝒐𝒘𝒆𝒓𝒆𝒅 𝑩𝒚 [𝑹𝒊𝒁𝒐𝒆𝑳 𝑿️](https://t.me/RiZoeLX)**, 
+                caption=**Hello, {firstname} ! Nice To Meet You, Well I Am {bot_id}, An Powerfull Spam Bot.** \n\n**If You Want Your Own Spam Bots You Can Deploy From Button Below.** \n\n**𝑷𝒐𝒘𝒆𝒓𝒆𝒅 𝑩𝒚 [𝑹𝒊𝒁𝒐𝒆𝑳 𝑿️](https://t.me/RiZoeLX)**, 
                 buttons=Riz_Button)                
