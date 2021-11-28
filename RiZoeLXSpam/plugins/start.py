@@ -32,8 +32,10 @@ async def start(event):
        bot_id = RizBot.first_name
        bot_username = RizBot.username
        replied_user = await event.client(GetFullUserRequest(event.sender_id))
+       TheRiZoeL = event.chat_id
        firstname = replied_user.user.first_name
-       await Riz.send_file(RIZ_IMG,
+       await Riz.send_file(TheRiZoeL,
+                RIZ_IMG,
                 caption=PM_START_TEXT, 
                 buttons=Riz_Button)
                 
@@ -44,8 +46,10 @@ async def start(event):
        bot_id = RizBot.first_name
        bot_username = RizBot.username
        replied_user = await event.client(GetFullUserRequest(event.sender_id))
+       TheRiZoeL = event.chat_id
        firstname = replied_user.user.first_name
-       await Riz2.send_file(RIZ_IMG,
+       await Riz2.send_file(TheRiZoeL,
+                RIZ_IMG,
                 caption=PM_START_TEXT, 
                 buttons=Riz_Button)      
  
@@ -56,8 +60,10 @@ async def start(event):
        bot_id = RizBot.first_name
        bot_username = RizBot.username
        replied_user = await event.client(GetFullUserRequest(event.sender_id))
+       TheRiZoeL = event.chat_id
        firstname = replied_user.user.first_name
-       await Riz3.send_file(RIZ_IMG,
+       await Riz3.send_file(TheRiZoeL,
+                RIZ_IMG,
                 caption=PM_START_TEXT, 
                 buttons=Riz_Button)
                 
@@ -68,8 +74,10 @@ async def start(event):
        bot_id = RizBot.first_name
        bot_username = RizBot.username
        replied_user = await event.client(GetFullUserRequest(event.sender_id))
+       TheRiZoeL = event.chat_id
        firstname = replied_user.user.first_name
-       await Riz4.send_file(RIZ_IMG,
+       await Riz4.send_file(TheRiZoeL,
+                RIZ_IMG,
                 caption=PM_START_TEXT, 
                 buttons=Riz_Button)  
 
@@ -80,8 +88,10 @@ async def start(event):
        bot_id = RizBot.first_name
        bot_username = RizBot.username
        replied_user = await event.client(GetFullUserRequest(event.sender_id))
+       TheRiZoeL = event.chat_id
        firstname = replied_user.user.first_name
-       await Riz5.send_file(RIZ_IMG,
+       await Riz5.send_file(TheRiZoeL,
+                RIZ_IMG,
                 caption=PM_START_TEXT, 
                 buttons=Riz_Button)
 
@@ -92,8 +102,10 @@ async def start(event):
        bot_id = RizBot.first_name
        bot_username = RizBot.username
        replied_user = await event.client(GetFullUserRequest(event.sender_id))
+       TheRiZoeL = event.chat_id
        firstname = replied_user.user.first_name
-       await Riz6.send_file(RIZ_IMG,
+       await Riz6.send_file(TheRiZoeL,
+                RIZ_IMG,
                 caption=PM_START_TEXT, 
                 buttons=Riz_Button)       
 
@@ -104,8 +116,10 @@ async def start(event):
        bot_id = RizBot.first_name
        bot_username = RizBot.username
        replied_user = await event.client(GetFullUserRequest(event.sender_id))
+       TheRiZoeL = event.chat_id 
        firstname = replied_user.user.first_name
-       await Riz7.send_file(RIZ_IMG,
+       await Riz7.send_file(TheRiZoeL,
+                RIZ_IMG,
                 caption=PM_START_TEXT, 
                 buttons=Riz_Button)
 
@@ -116,8 +130,10 @@ async def start(event):
        bot_id = RizBot.first_name
        bot_username = RizBot.username
        replied_user = await event.client(GetFullUserRequest(event.sender_id))
+       TheRiZoeL = event.chat_id
        firstname = replied_user.user.first_name
-       await Riz8.send_file(RIZ_IMG,
+       await Riz8.send_file(TheRiZoeL,
+                RIZ_IMG,
                 caption=PM_START_TEXT, 
                 buttons=Riz_Button)
                 
@@ -128,8 +144,10 @@ async def start(event):
        bot_id = RizBot.first_name
        bot_username = RizBot.username
        replied_user = await event.client(GetFullUserRequest(event.sender_id))
+       TheRiZoeL = event.chat_id
        firstname = replied_user.user.first_name
-       await Riz9.send_file(RIZ_IMG,
+       await Riz9.send_file(TheRiZoeL,
+                RIZ_IMG,
                 caption=PM_START_TEXT, 
                 buttons=Riz_Button)
                 
@@ -140,7 +158,9 @@ async def start(event):
        bot_id = RizBot.first_name
        bot_username = RizBot.username
        replied_user = await event.client(GetFullUserRequest(event.sender_id))
+       TheRiZoeL = event.chat_id
        firstname = replied_user.user.first_name
-       await Riz10.send_file(RIZ_IMG,
+       await Riz10.send_file(TheRiZoeL,
+                RIZ_IMG,
                 caption=PM_START_TEXT, 
                 buttons=Riz_Button)                
