@@ -36,47 +36,47 @@
       "BOT_TOKEN2": {
         "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
         "value": "",
-        "required": false
+        "required": true
       },
       "BOT_TOKEN3": {
         "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
         "value": "",
-        "required": false
+        "required": true
       },
       "BOT_TOKEN4": {
         "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
         "value": "",
-        "required": false
+        "required": true
       },
       "BOT_TOKEN5": {
         "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
         "value": "",
-        "required": false
+        "required": true
       },
       "BOT_TOKEN6": {
         "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
         "value": "",
-        "required": false
+        "required": true
       },
       "BOT_TOKEN7": {
         "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
         "value": "",
-        "required": false
+        "required": true
       },
       "BOT_TOKEN8": {
         "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
         "value": "",
-        "required": false
+        "required": true
       },
       "BOT_TOKEN9": {
         "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
         "value": "",
-        "required": false
+        "required": true
       },
       "BOT_TOKEN10": {
         "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
         "value": "",
-        "required": false
+        "required": true
       },
        "SUDO_USER": {
             "description": "Sudo users id space by space",
