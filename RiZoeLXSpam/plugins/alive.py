@@ -35,5 +35,6 @@ async def alive(event):
         [
         Button.url("• ʀᴇᴘᴏ •", "https://github.com/MrRizoel/RiZoeLXSpam")
         ]
+        ]
         )
     
