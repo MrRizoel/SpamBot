@@ -15,16 +15,6 @@ from telethon import events
 @Riz8.on(events.NewMessage(pattern=".hi"))
 @Riz9.on(events.NewMessage(pattern=".hi"))
 @Riz10.on(events.NewMessage(pattern=".hi"))
-@Riz11.on(events.NewMessage(pattern=".hi"))
-@Riz12.on(events.NewMessage(pattern=".hi"))
-@Riz13.on(events.NewMessage(pattern=".hi"))
-@Riz14.on(events.NewMessage(pattern=".hi"))
-@Riz15.on(events.NewMessage(pattern=".hi"))
-@Riz16.on(events.NewMessage(pattern=".hi"))
-@Riz17.on(events.NewMessage(pattern=".hi"))
-@Riz18.on(events.NewMessage(pattern=".hi"))
-@Riz19.on(events.NewMessage(pattern=".hi"))
-@Riz20.on(events.NewMessage(pattern=".hi"))
 async def hi(e):
     if e.sender_id in SMEX_USERS:
         event = await e.reply(text, parse_mode=None, link_preview=None )
