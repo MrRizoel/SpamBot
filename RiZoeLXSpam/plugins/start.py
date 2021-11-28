@@ -25,25 +25,25 @@ Riz_Button = [
 
 @Riz.on(events.NewMessage(pattern="/start"))
 async def start(event):              
-   if event.is_private:
+    if event.is_private:
     RizBot = await Riz.get_me()
     bot_id = RizBot.first_name
     bot_username = RizBot.username
     replied_user = await event.client(GetFullUserRequest(event.sender_id))
     firstname = replied_user.user.first_name
-       await event.client.send_file(RIZ_IMG,
+       await Riz.client.send_file(RIZ_IMG,
                 caption=PM_START_TEXT, 
                 buttons=Riz_Button)
                 
 @Riz2.on(events.NewMessage(pattern="/start"))
 async def start(event):              
-   if event.is_private:
+    if event.is_private:
     RizBot = await Riz2.get_me()
     bot_id = RizBot.first_name
     bot_username = RizBot.username
     replied_user = await event.client(GetFullUserRequest(event.sender_id))
     firstname = replied_user.user.first_name
-       await event.client.send_file(RIZ_IMG,
+       await Riz2.client.send_file(RIZ_IMG,
                 caption=PM_START_TEXT, 
                 buttons=Riz_Button)      
  
