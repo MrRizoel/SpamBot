@@ -5,7 +5,6 @@ from .. import Riz, Riz2, Riz3, Riz4, Riz5, Riz6, Riz7, Riz8, Riz9, Riz10, SUDO_
 from telethon import events
 
 
-
 @Riz.on(events.NewMessage(pattern=".hi"))
 @Riz2.on(events.NewMessage(pattern=".hi"))
 @Riz3.on(events.NewMessage(pattern=".hi"))
