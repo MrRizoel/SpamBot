@@ -1,5 +1,6 @@
 from .. import Riz, SUDO_USERS
-from telethon import events
+from telethon import events, Button
+from telethon.tl.custom import button
 from time import time
 from datetime import datetime
     
