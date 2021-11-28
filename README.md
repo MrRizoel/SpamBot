@@ -23,5 +23,6 @@
 * [Support Group](https://t.me/DNHcHELL)
 
 # Credits
-* [RiZoeL Creator](https://t.me/TheRiZoeL)
+* [RiZoeL Creator](https://github.com/MrRizoel)
+* [Ustad-op](https://github.com/Ustad-Op)
 * [Lonami](https://github.com/LonamiWebs/) for [Telethon.](https://github.com/LonamiWebs/Telethon)
