@@ -84,7 +84,7 @@ async def start(event):
                 caption=PM_START_TEXT, 
                 buttons=Riz_Button)
 
- @Riz6.on(events.NewMessage(pattern="/start"))
+@Riz6.on(events.NewMessage(pattern="/start"))
 async def start(event):              
     if event.is_private:
        RizBot = await Riz6.get_me()
