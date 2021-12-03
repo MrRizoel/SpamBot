@@ -111,7 +111,7 @@ async def _(event):
 async def _(e):
     global que
     usage = f"𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗥𝗲𝗽𝗹𝘆𝗥𝗮𝗶𝗱\n\nCommand:\n\n.replyraid <Username of User>\n\n.replyraid <reply to a User>."
-    if e.sender_id in SUDO_USERS or e.sender_id in DEV_USERS:
+    if e.sender_id in SUDO_USERS:
         RiZoeL = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
         Rizx = await e.get_reply_message()
         if len(e.text) > 11:
