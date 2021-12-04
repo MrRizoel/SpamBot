@@ -16,6 +16,6 @@ from telethon import events
 @Riz10.on(events.NewMessage(pattern=".hi"))
 async def hi(e):
     if e.sender_id in SUDO_USERS:
+        text = "**HELLO**"
         event = await e.reply(text, parse_mode=None, link_preview=None )
-        await event.edit(f"``**HELLO**``")
 ```
