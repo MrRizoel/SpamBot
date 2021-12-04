@@ -17,5 +17,5 @@ from telethon import events
 async def hi(e):
     if e.sender_id in SUDO_USERS:
         text = "**HELLO**"
-        event = await e.reply(text, parse_mode=None, link_preview=None )
+        await e.reply(text, parse_mode=None, link_preview=None )
 ```
