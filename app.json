@@ -1,17 +1,23 @@
 {
-    "name": "RIZOELXSPAM HERE.",
-    "description": "MOST POWERFUL + STABLE SPAM USERBOTS",
-    "logo": "https://telegra.ph/file/db194f99e15db50f43c72.jpg",
-    "keywords": [
+      "name": "RiZoeL X Spam",
+      "description": "MOST POWERFUL + STABLE SPAM USERBOTS",
+      "logo": "https://telegra.ph/file/db194f99e15db50f43c72.jpg",
+      "keywords": [
         "telegram",
         "telethon",
         "telegram-bot",
         "RiZoeLXSpam",
         "SpamBots"
-    ],
-    "repository": "https://t.me/TheRiZoeL",
-    "website": "https://t.me/TheRiZoeL",
-    "success_url": "https://t.me/TheRiZoeL",
+      ],   
+   "repository": "https://github.com/MrRizoel/RiZoeLXSpam",
+   "addons": [
+      {
+         "options": {
+            "version": "12"
+         },
+         "plan": "heroku-postgresql"
+      }
+   ],
     "env": {
              "API_ID": {
         "description": "Fill Api ID Take this value from My.telegram.org",
