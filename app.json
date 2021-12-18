@@ -9,16 +9,10 @@
         "RiZoeLXSpam",
         "SpamBots"
       ],   
-   "repository": "https://github.com/MrRizoel/RiZoeLXSpam",
-   "addons": [
-      {
-         "options": {
-            "version": "12"
-         },
-         "plan": "heroku-postgresql"
-      }
-   ],
-    "env": {
+  "repository": "https://github.com/MrRizoel",
+  "website": "https://github.com/MrRizoel",
+  "success_url": "https://t.me/RiZoeLX",
+      "env": {
              "API_ID": {
         "description": "Fill Api ID Take this value from My.telegram.org",
         "value": "",
@@ -100,6 +94,15 @@
           "required": false  
         }
     },
+
+  "addons": [
+    {
+      "plan": "heroku-postgresql",
+      "options": {
+        "version": "12"
+      }
+    }
+  ],
     "buildpacks": [
         {
             "url": "heroku/python"
