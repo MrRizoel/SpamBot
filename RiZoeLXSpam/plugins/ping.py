@@ -33,16 +33,16 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
-@Riz.on(events.NewMessage(pattern=".ping"))
-@Riz2.on(events.NewMessage(pattern=".ping"))
-@Riz3.on(events.NewMessage(pattern=".ping"))
-@Riz4.on(events.NewMessage(pattern=".ping"))
-@Riz5.on(events.NewMessage(pattern=".ping"))
-@Riz6.on(events.NewMessage(pattern=".ping"))
-@Riz7.on(events.NewMessage(pattern=".ping"))
-@Riz8.on(events.NewMessage(pattern=".ping"))
-@Riz9.on(events.NewMessage(pattern=".ping"))
-@Riz10.on(events.NewMessage(pattern=".ping"))
+@Riz.on(events.NewMessage(pattern=r"\.ping"))
+@Riz2.on(events.NewMessage(pattern=r"\.ping"))
+@Riz3.on(events.NewMessage(pattern=r"\.ping"))
+@Riz4.on(events.NewMessage(pattern=r"\.ping"))
+@Riz5.on(events.NewMessage(pattern=r"\.ping"))
+@Riz6.on(events.NewMessage(pattern=r"\.ping"))
+@Riz7.on(events.NewMessage(pattern=r"\.ping"))
+@Riz8.on(events.NewMessage(pattern=r"\.ping"))
+@Riz9.on(events.NewMessage(pattern=r"\.ping"))
+@Riz10.on(events.NewMessage(pattern=r"\.ping"))
 async def ping(e):
     if e.sender_id in SUDO_USERS:
         start = datetime.now()
