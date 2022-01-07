@@ -31,7 +31,7 @@ async def _(e):
             try:
                 await event.client(LeaveChannelRequest(Xd))
                 await event.edit("Succesfully Left ✅")
-           except Exception as e:
+            except Exception as e:
                 await event.edit(str(e))   
         else:
             await e.reply(usage, parse_mode=None, link_preview=None )   
