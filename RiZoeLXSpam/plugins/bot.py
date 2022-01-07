@@ -2,9 +2,9 @@ import os
 import asyncio
 import sys
 import git
+import heroku3
 from RiZoeLXSpam import Riz, Riz2, Riz3, Riz4, Riz5 , Riz6, Riz7, Riz8, Riz9, Riz10, OWNER_ID, SUDO_USERS, HEROKU_APP_NAME, HEROKU_API_KEY, rizoelversion
 from RiZoeLXSpam import CMD_HNDLR as hl
-import heroku3
 from telethon.tl.functions.users import GetFullUserRequest
 from RiZoeLXSpam import ALIVE_PIC
 from telethon import events, version, Button
@@ -147,6 +147,10 @@ async def restart(e):
         quit()
         
 
+Heroku = heroku3.from_key(HEROKU_API_KEY)
+heroku_api = "https://api.heroku.com"
+sudousers = os.environ.get("SUDO_USER", None)
+
 @Riz.on(events.NewMessage(incoming=True, pattern=r"\%saddsudo(?: |$)(.*)" % hl))
 async def tb(event):
     if event.sender_id == OWNER_ID:
@@ -170,4 +174,18 @@ async def tb(event):
             newsudo = f"{target}"
         await ok.edit(f"**Added `{target}` ** as a sudo user 🔱 Restarting.. Please wait a minute...")
         heroku_var[rizoel] = newsudo   
-        
+   
+     
+async def get_user(event):
+    if event.reply_to_msg_id:
+        previous_message = await event.get_reply_message()
+        if previous_message.forward:
+            replied_user = await event.client(
+                GetFullUserRequest(previous_message.forward.sender_id)
+            )
+        else:
+            replied_user = await event.client(
+                GetFullUserRequest(previous_message.sender_id)
+            )
+    target = replied_user.user.id
+    return target
