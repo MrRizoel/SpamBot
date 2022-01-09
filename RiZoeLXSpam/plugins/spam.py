@@ -14,7 +14,7 @@ async def gifspam(e, smex):
         pass
 
 import asyncio
-import base64
+import random
 import os
 from telethon import events
 from telethon import functions, types
@@ -178,3 +178,35 @@ async def unlimitedspam(event):
         await asyncio.sleep(0.3)
     except Exception as e:
       await event.reply("Oops!! Something went wrong, Report In @DNHxHELl\n\n" + str(e))
+
+
+@Riz.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
+@Riz2.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
+@Riz3.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
+@Riz4.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
+@Riz5.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
+@Riz6.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
+@Riz7.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
+@Riz8.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
+@Riz9.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
+@Riz10.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
+async def pspam(e):
+    usage = "**MODULE NAME : PORN SPAM** \n\n command: `.pornspam <count>`"
+    if e.sender_id in SUDO_USERS:
+        if e.text[0].isalpha() and e.text[0] in ("/", "#", "@", "!"):
+            return await e.reply(usage, parse_mode=None, link_preview=None )
+        rizoel = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
+        if len(rizoel) == 1:
+            counter = int(rizoel[0])
+            if int(e.chat_id) in GROUP:
+                text = f"Sorry !! I can't spam here"
+                await e.reply(text, parse_mode=None, link_preview=None )
+            else:
+                 porrn = random.choice(PORMS)
+                 for _ in range(counter):
+                     async with e.client.action(e.chat_id, "document"):
+                         smex = await e.client.send_file(e.chat_id, porrn)
+                         await gifspam(e, smex) 
+                     await asyncio.sleep(0.4)
+        else:
+            await e.reply(usage, parse_mode=None, link_preview=None )
