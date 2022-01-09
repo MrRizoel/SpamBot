@@ -191,7 +191,6 @@ async def unlimitedspam(event):
 @Riz9.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
 @Riz10.on(events.NewMessage(incoming=True, pattern=r"\%spornspam(?: |$)(.*)" % hl))
 async def pspam(e):
-    usage = "**MODULE NAME : PORN SPAM** \n\n command: `.pornspam <count>`"
     if e.sender_id in SUDO_USERS:
         if e.text[0].isalpha() and e.text[0] in ("/", "#", "@", "!"):
             return await e.reply(usage, parse_mode=None, link_preview=None )
@@ -209,4 +208,5 @@ async def pspam(e):
                          await gifspam(e, smex) 
                      await asyncio.sleep(0.4)
         else:
+            usage = f"**MODULE NAME : PORN SPAM** \n\n command: `.pornspam <count>`"
             await e.reply(usage, parse_mode=None, link_preview=None )
