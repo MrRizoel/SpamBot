@@ -1,4 +1,4 @@
-from RiZoeLXSpam import Riz, SUDO_USERS
+from RiZoeLXSpam import Riz, Riz2, Riz3, Riz4, Riz5, Riz6, Riz7, Riz8, Riz9, Riz10, SUDO_USERS
 from telethon import events, Button
 from telethon.tl.custom import button
 from time import time
@@ -72,17 +72,22 @@ raid_msg = f"""
 **Help Raid Cmds**
 
 
-**raid:** Activates curse on any individual user for given range.
+**raid:** Activates raid on any individual user for given range.
 command:
 i) {hl}raid <count> <username
 ii) {hl}raid <count> <reply to user>
 
-**replyraid:** Activates reply and curse on the user!!
+**Delayraid**: Activates raid on any individual user for given range.
+Command:
+i) {hl}delayraid <delay> <count> <Username of User>
+ii) {hl}delayraid <delay> <count> <reply to a User>
+
+**replyraid:** Activates Reply Raid on the user!!
 command:
 i) {hl}replyraid <replying to user>
 ii) {hl}dreplyraid <username>
 
-**dreplyraid:** Deactivates reply and curse on the user!!
+**dreplyraid:** Deactivates reply raid on the user!!
 command:
 i) {hl}dreplyraid <replying to user>
 ii) {hl}dreplyraid <username>
