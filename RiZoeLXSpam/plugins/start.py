@@ -4,6 +4,8 @@ from telethon.tl.functions.users import GetFullUserRequest
 from telethon import events, Button
 from telethon.tl.custom import button
 from .. import Riz, Riz2, Riz3, Riz4, Riz5, Riz6, Riz7, Riz8, Riz9, Riz10, ALIVE_PIC, OWNER_ID
+from RiZoeLXSpam.plugins.help import *
+
 
 RIZ_IMG = ALIVE_PIC if ALIVE_PIC else "https://telegra.ph/file/ba87c58f01a6fcb5ef512.jpg"
 
@@ -12,7 +14,7 @@ Riz_Button = [
         Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/DNHxHELL")
         ],
         [
-        Button.url("• ᴄᴍᴅs •", "https://telegra.ph/%F0%9D%97%A5%F0%9D%97%9C%F0%9D%97%AD%F0%9D%97%A2%F0%9D%97%98%F0%9D%97%9F-%F0%9D%97%AB-%F0%9D%97%A6%F0%9D%97%A3%F0%9D%97%94%F0%9D%97%A0-11-28-2")
+        Button.inline("• ᴄᴍᴅs •", data="help_back")
         ]
         ]
                
@@ -22,7 +24,7 @@ RizX_Button = [
         Button.url("sᴜᴘᴘᴏʀᴛ", "https://t.me/DNHxHELL")
         ],
         [
-        Button.url("• ʀᴇᴘᴏ •", "https://github.com/MrRizoel/SpamBot")
+        Button.url("• ʀᴇᴘᴏ •", "https://github.com/MrRizoel/RiZoeLXSpam")
         ]
         ]
         
@@ -62,3 +64,4 @@ async def start(event):
                   caption=usermsg, 
                   buttons=RizX_Button)
                 
+
