@@ -44,7 +44,6 @@ async def help(event):
 extra_msg = f"""
 **Help Extra Cmds**
 
-
 **Userbot**: Userbot Cmds
 command:
 i) {hl}ping 
@@ -60,6 +59,9 @@ ii) {hl}rmechk <reply to user>
 **Leave**: To Leave Group/channel
 command:
 i) {hl}leave <group/chat id>
+
+**Packspam**: Sticker Pack Spam
+i) {hl}packspam (replying to any sticker)
 
 **© @RiZoeLX**
 """
