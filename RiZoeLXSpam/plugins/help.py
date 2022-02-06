@@ -59,6 +59,7 @@ ii) {hl}rmechk <reply to user>
 **Leave**: To Leave Group/channel
 command:
 i) {hl}leave <group/chat id>
+ii) {hl}leave : Type in the Group bot will auto leave that group
 
 **Packspam**: Sticker Pack Spam
 i) {hl}packspam (replying to any sticker)
