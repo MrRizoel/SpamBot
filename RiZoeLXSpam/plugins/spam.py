@@ -213,3 +213,44 @@ async def hang(e):
                 await asyncio.wait([e.respond(hang, reply_to=e.reply_to_msg_id) for i in range(counter)])
         else:
             await e.reply(usage)
+
+@Riz.on(events.NewMessage(incoming=True, pattern=r"\%spackspam(?: |$)(.*)" % hl))
+@Riz2.on(events.NewMessage(incoming=True, pattern=r"\%spackspam(?: |$)(.*)" % hl))
+@Riz3.on(events.NewMessage(incoming=True, pattern=r"\%spackspam(?: |$)(.*)" % hl))
+@Riz4.on(events.NewMessage(incoming=True, pattern=r"\%spackspam(?: |$)(.*)" % hl))
+@Riz5.on(events.NewMessage(incoming=True, pattern=r"\%spackspam(?: |$)(.*)" % hl))
+@Riz6.on(events.NewMessage(incoming=True, pattern=r"\%spackspam(?: |$)(.*)" % hl))
+@Riz7.on(events.NewMessage(incoming=True, pattern=r"\%spackspam(?: |$)(.*)" % hl))
+@Riz8.on(events.NewMessage(incoming=True, pattern=r"\%spackspam(?: |$)(.*)" % hl))
+@Riz9.on(events.NewMessage(incoming=True, pattern=r"\%spackspam(?: |$)(.*)" % hl))
+@Riz10.on(events.NewMessage(incoming=True, pattern=r"\%spackspam(?: |$)(.*)" % hl))
+async def packspam(e):
+    if e.sender_id in SUDO_USERS:
+        try:
+            x = await e.get_reply_message()
+            if not (x and x.media and hasattr(x.media, "document")):
+                return await e.reply("`Reply To Sticker Only.`")
+            set = x.document.attributes[1]
+            sset = await e.client(
+                GetStickerSetRequest(
+                InputStickerSetID(
+                    id=set.stickerset.id,
+                    access_hash=set.stickerset.access_hash,
+                )
+                )
+            )
+            pack = sset.set.short_name
+            docs = [
+                utils.get_input_document(x)
+                for x in (
+                await e.client(GetStickerSetRequest(InputStickerSetShortName(pack)))
+                ).documents
+            ]
+            for xx in docs:
+                async with e.client.action(e.chat_id, "document"):
+                    await e.client.send_file(e.chat_id, file=(xx))
+                    await asyncio.sleep(0.3)
+        except Exception as xy:
+            print(str(xy))
+            usage = f"**Module Name : Pack Spam** \n\n cmd: `{hl}packspam (replying to any sticker)`"
+            await e.reply(usage)
