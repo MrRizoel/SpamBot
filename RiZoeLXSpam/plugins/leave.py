@@ -19,8 +19,7 @@ import sys
 @Riz8.on(events.NewMessage(incoming=True, pattern=r"\%sleave(?: |$)(.*)" % hl))
 @Riz9.on(events.NewMessage(incoming=True, pattern=r"\%sleave(?: |$)(.*)" % hl))
 @Riz10.on(events.NewMessage(incoming=True, pattern=r"\%sleave(?: |$)(.*)" % hl))
-async def _(e):
-    usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗟𝗲𝗮𝘃𝗲\n\nCommand:\n\n.leave <Channel or Chat ID>"
+async def leave(e):
     if e.sender_id in SUDO_USERS:
         rizoel = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
         if len(e.text) > 7:
@@ -32,6 +31,18 @@ async def _(e):
                 await event.client(LeaveChannelRequest(Xd))
                 await event.edit("Succesfully Left ✅")
             except Exception as e:
-                await event.edit(str(e))   
+                await event.edit(str(e))
+         
         else:
-            await e.reply(usage, parse_mode=None, link_preview=None )   
+             bc = e.chat_id
+             Xd = int(bc)
+             text = "I'm Leaving This Group......"
+             if e.is_private:
+                  dik = f"You Can't Do this Here !! \n\n {hl}leave <Channel or Chat ID> \n {hl}leave : type in the group bot will auto leave that group !"
+                  await e.reply(dik, parse_mode=None, link_preview=None )
+             else:
+                  event = await e.reply(text, parse_mode=None, link_preview=None )
+                  try:
+                      await event.client(LeaveChannelRequest(Xd))
+                  except Exception as e:
+                      await event.edit(str(e))
