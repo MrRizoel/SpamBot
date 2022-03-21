@@ -15,7 +15,7 @@ def load_plugins(plugin_name):
     load.logger = logging.getLogger(plugin_name)
     spec.loader.exec_module(load)
     sys.modules["RiZoeLXSpam.plugins." + plugin_name] = load
-    print("RiZoeL X has Imported " + plugin_name)
+    print("RiZoeL X Spam has Imported Module: " + plugin_name)
 
 async def edit_or_reply(event, text):
     if event.sender_id in SUDO_USERS:
