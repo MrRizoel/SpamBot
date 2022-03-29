@@ -1,5 +1,5 @@
-# RiZoeLXSpam - Spam Userbots
-# Copyright © 2021 @RiZoeLX
+# Team HearTless- Spam Userbots
+# Copyright © 2021 @ITZ_STAR_BOY
 
 import os
 import sys
