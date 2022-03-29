@@ -40,8 +40,8 @@ async def alive(event):
                                   caption=rizoel,
                                   buttons=[
         [
-        Button.url("ᴄʜᴀɴɴᴇʟ", "https://t.me/RiZoeLX"),
-        Button.url("sᴜᴘᴘᴏʀᴛ", "https://t.me/DNHxHELL")
+        Button.url("ᴄʜᴀɴɴᴇʟ", "https://t.me/ABOUT_STAR_BOY"),
+        Button.url("sᴜᴘᴘᴏʀᴛ", "https://t.me/TEAM_HEARTLESS_POLICE_ONLINE")
         ],
         [
         Button.url("• ʀᴇᴘᴏ •", "https://github.com/MrRizoel/SpamBot")
@@ -93,7 +93,7 @@ async def ping(e):
         event = await e.reply(text, parse_mode=None, link_preview=None )
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await event.edit(f"▒█▀▀█ ▒█▀▀▀█ ▀▀█▀▀\n▒█▀▀▄ ▒█░░▒█ ░▒█░░\n▒█▄▄█ ▒█▄▄▄█ ░▒█░░\n\nϟ ʀɪᴢᴏᴇʟ X sᴘᴀᴍ ϟ︎ `{ms}` ᴍs")
+        await event.edit(f"▒█▀▀█ ▒█▀▀▀█ ▀▀█▀▀\n▒█▀▀▄ ▒█░░▒█ ░▒█░░\n▒█▄▄█ ▒█▄▄▄█ ░▒█░░\n\n⚔ 𝐓𝐄𝐀𝐌 𝐇𝐄𝐀𝐑𝐓𝐋𝐄𝐒𝐒 ⚔ `{ms}` ᴍs")
         
         
 
