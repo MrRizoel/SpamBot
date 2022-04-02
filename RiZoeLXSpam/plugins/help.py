@@ -54,7 +54,7 @@ iv) {hl}addsudo <reply to user> : Owner Cmd
 **Echo**: To Active Echo On Any User
 command:
 i) {hl}addecho <reply to user>
-ii) {hl}rmechk <reply to user>
+ii) {hl}rmecho <reply to user>
 
 **Leave**: To Leave Group/channel
 command:
