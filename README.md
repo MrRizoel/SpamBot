@@ -16,13 +16,15 @@
 
 # Deploy on heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/TheRiZoeL/spambot-heroku)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/HearTlessOp/spambot-heroku)
 
 
 # Support & Updates
-* [Channel](https://t.me/RiZoeLX)
-* [Support Group](https://t.me/DNHcHELL)
+* [Channel](https://t.me/ABOUT_STAR_BOY)
+* [Support Group](https://t.me/TEAM_HEARTLESS_POLICE_ONLINE)
 
 # Credits
-* [RiZoeL Creator](https://github.com/MrRizoel)
+*[𝚂𝙰𝙼𝙱𝙾𝙳𝙷𝙸𝚁𝙰𝙹 𝙲𝚁𝙴𝙰𝚃𝙾𝚁](https://github.com/HearTlessOp)
 * [Lonami](https://github.com/LonamiWebs/) for [Telethon.](https://github.com/LonamiWebs/Telethon)
+
+[𝙲𝚁𝙴𝙳𝙸𝚃𝚂](https://github.com/MrRizoel)

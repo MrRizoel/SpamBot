@@ -1,4 +1,4 @@
-#RiZoeLXSpam By @TheRiZoeL
+#RiZoeLXSpam By @ITZ_STAR_BOY
 
 import asyncio
 import sys
@@ -22,8 +22,8 @@ for name in files:
         plugin_name = patt.stem
         load_plugins(plugin_name.replace(".py", ""))
 
-print("RiZoeL Bot Spam Successfully deployed -!")
-print("Enjoy! Do visit @RiZoeLX")
+print("HearTless Bot Spam Successfully deployed -!")
+print("Enjoy! Do visit @TEAM_HEARTLESS_POLICE_ONLINE")
 
 if __name__ == "__main__":
     Riz.run_until_disconnected()
