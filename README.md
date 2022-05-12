@@ -19,9 +19,7 @@
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/TheRiZoeL/spambot-heroku)
 
 
-# Support & Updates
-* [Channel](https://t.me/RiZoeLX)
-* [Support Group](https://t.me/DNHcHELL)
+
 
 # Credits
 * [RiZoeL Creator](https://github.com/MrRizoel)
