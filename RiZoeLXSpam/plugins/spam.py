@@ -16,14 +16,14 @@ async def gifspam(e, smex):
 import asyncio
 import random
 import os
-from telethon import events
+from telethon import events, Button
 from RiZoeLXSpam import Riz, Riz2, Riz3, Riz4, Riz5 , Riz6, Riz7, Riz8, Riz9, Riz10, SUDO_USERS, OWNER_ID
 from RiZoeLXSpam import CMD_HNDLR as hl
 from telethon.tl.functions.messages import GetStickerSetRequest
 from telethon.tl.types import InputStickerSetID, InputStickerSetShortName
 from telethon import utils
 from resources.data import GROUP, PORMS, RAID, RiZoeLX
-
+from telethon.tl.custom import button
 
 
 @Riz.on(events.NewMessage(incoming=True, pattern=r"\%sspam(?: |$)(.*)" % hl))
@@ -310,7 +310,7 @@ async def spam(e):
                     caption = f"{username} {open_msg}"
                     await e.client.send_message(e.chat_id, 
                                                      caption, 
-                                                     button=[
+                                                     buttons=[
                                                      [
                                                       Button.inline("Click Here Bitch", data="dekhlo"),
                                                      ],
@@ -343,7 +343,7 @@ async def spam(e):
                     caption = f"{username} {open_msg}"
                     await e.client.send_message(e.chat_id, 
                                                      caption, 
-                                                     button=[
+                                                     buttons=[
                                                      [
                                                       Button.inline("Click Here Bitch", data="dekhlo"),
                                                      ],
