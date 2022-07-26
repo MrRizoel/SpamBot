@@ -23,6 +23,8 @@ rizoelversion = "v2.0.3"
 #values
 API_ID = config("API_ID", default=None, cast=int)
 API_HASH = config("API_HASH", default=None)
+ALIVE_MSG = config("ALIVE_MSG", default=None)
+PING_MSG = config("PING_MSG", default=None)
 ALIVE_PIC = config("ALIVE_PIC", default=None)
 CMD_HNDLR = getenv("CMD_HNDLR", default="!")
 HEROKU_APP_NAME = config("HEROKU_APP_NAME", None)
