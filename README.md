@@ -2,7 +2,7 @@
   <img src="https://telegra.ph/file/4c13beea0f4b44999a48b.jpg" alt="BOT-SPAM Logo">
 </p>
 <h1 align="center">
-  <b>ʀɪᴢᴏᴇʟ X sᴘᴀᴍ</b>
+  <b>VENOM X sᴘᴀᴍ</b>
 </h1>
 
 [![Forks](https://img.shields.io/github/forks/MrRizoel/Spambot?style=flat-square&color=orange)](https://github.com/venomowners20912/Spambot/fork)
