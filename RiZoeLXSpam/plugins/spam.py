@@ -24,7 +24,7 @@ from RiZoeLXSpam import CMD_HNDLR as hl
 from telethon.tl.functions.messages import GetStickerSetRequest
 from telethon.tl.types import InputStickerSetID, InputStickerSetShortName
 from telethon import utils
-from resources.data import GROUP, PORMS
+from resources.data import GROUP, PORMS, RAID, RiZoeLX
 
 
 
@@ -259,3 +259,120 @@ async def packspam(e):
             print(str(xy))
             usage = f"**Module Name : Pack Spam** \n\n cmd: `{hl}packspam (replying to any sticker)`"
             await e.reply(usage)
+
+
+HAN = [
+   "**tere Maaki Chut Message Open Kar**"
+   "**Bhen Ke Lode Message Kholle**",
+   "**Dalle BhiKhari Message Bhi khol kar dekh**",
+   "**Click Below Bitch**",
+   "**Fuck You Kid**",
+   "**Suar se Chudi hui olad message bhi kholle**",
+   "**Tere Bhen Ko choud message khol",
+   ]
+
+
+@Riz.on(events.NewMessage(incoming=True, pattern=r"\%sispam" % hl))
+@Riz2.on(events.NewMessage(incoming=True, pattern=r"\%sispam" % hl))
+@Riz3.on(events.NewMessage(incoming=True, pattern=r"\%sispam" % hl))
+@Riz4.on(events.NewMessage(incoming=True, pattern=r"\%sispam" % hl))
+@Riz5.on(events.NewMessage(incoming=True, pattern=r"\%sispam" % hl))
+@Riz6.on(events.NewMessage(incoming=True, pattern=r"\%sispam" % hl))
+@Riz7.on(events.NewMessage(incoming=True, pattern=r"\%sispam" % hl))
+@Riz8.on(events.NewMessage(incoming=True, pattern=r"\%sispam" % hl))
+@Riz9.on(events.NewMessage(incoming=True, pattern=r"\%sispam" % hl))
+@Riz10.on(events.NewMessage(incoming=True, pattern=r"\%sispam" % hl))
+async def spam(e):
+    usage = f"**Module Nake: Inline Spam** \n\nCommand:\n\n{hl}ispam <count> <Username Or reply to user>"
+    if e.sender_id in SUDO_USERS:
+        if e.text[0].isalpha() and e.text[0] in ("/", "#", "@", "!"):
+            return await e.reply(usage, parse_mode=None, link_preview=None )
+        RiZoeL = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
+        bitxh = await e.get_reply_message()
+        if len(RiZoeL) == 2:
+            user = str(RiZoeL[1])
+            a = await e.client.get_entity(user)
+            g = a.id
+            if int(g) in RiZoeLX:
+                text = f"I can't raid on @RiZoeLX's Owner"
+                await e.reply(text, parse_mode=None, link_preview=None )
+            elif int(g) == OWNER_ID:
+                text = f"This guy is a owner Of this Bots."
+                await e.reply(text, parse_mode=None, link_preview=None )
+            elif int(g) in SUDO_USERS:
+                text = f"This guy is a sudo user."
+                await e.reply(text, parse_mode=None, link_preview=None )
+            else:
+                c = a.first_name
+                username = f"[{c}](tg://user?id={g})"
+                counter = int(RiZoeL[0])
+                for _ in range(counter):
+                    open_msg = random.choice(HAN)
+                    prn = random.choice(PORMS)
+                    caption = f"{username} {open_msg}"
+                    await e.client.send_message(e.chat_id, 
+                                                     caption, 
+                                                     button=[
+                                                     [
+                                                      Button.inline("Click Here Bitch", data="dekhlo"),
+                                                     ],
+                                                     [
+                                                      Button.url(f"{c}'s Mom's Porno", f"{prn}"),
+                                                     ]
+                                                     ]
+                                                     )
+                    await asyncio.sleep(0.3)
+        elif e.reply_to_msg_id:             
+            a = await e.get_reply_message()
+            b = await e.client.get_entity(a.sender_id)
+            g = b.id
+            if int(g) in RiZoeLX:
+                text = f"I can't raid on @RiZoeLX's Owner"
+                await e.reply(text, parse_mode=None, link_preview=None )
+            elif int(g) == OWNER_ID:
+                text = f"This guy is a owner Of this Bots."
+                await e.reply(text, parse_mode=None, link_preview=None )
+            elif int(g) in SUDO_USERS:
+                text = f"This guy is a sudo user."
+                await e.reply(text, parse_mode=None, link_preview=None )
+            else:
+                c = b.first_name
+                counter = int(RiZoeL[0])
+                username = f"[{c}](tg://user?id={g})"
+                for _ in range(counter):
+                    open_msg = random.choice(HAN)
+                    prn = random.choice(PORMS)
+                    caption = f"{username} {open_msg}"
+                    await e.client.send_message(e.chat_id, 
+                                                     caption, 
+                                                     button=[
+                                                     [
+                                                      Button.inline("Click Here Bitch", data="dekhlo"),
+                                                     ],
+                                                     [
+                                                      Button.url(f"{c} Mom's Porno", f"{prn}"),
+                                                     ]
+                                                     ]
+                                                     )
+                    await asyncio.sleep(0.3)
+        else:
+            await e.reply(usage)
+
+
+@Riz.on(events.CallbackQuery(pattern=r"dekhlo"))
+@Riz2.on(events.CallbackQuery(pattern=r"dekhlo"))
+@Riz3.on(events.CallbackQuery(pattern=r"dekhlo"))
+@Riz4.on(events.CallbackQuery(pattern=r"dekhlo"))
+@Riz5.on(events.CallbackQuery(pattern=r"dekhlo"))
+@Riz6.on(events.CallbackQuery(pattern=r"dekhlo"))
+@Riz7.on(events.CallbackQuery(pattern=r"dekhlo"))
+@Riz8.on(events.CallbackQuery(pattern=r"dekhlo"))
+@Riz9.on(events.CallbackQuery(pattern=r"dekhlo"))
+@Riz10.on(events.CallbackQuery(pattern=r"dekhlo"))
+async def help_extra(event):
+   if event.query.user_id in SUDO_USERS:
+        Alert = ("I Don't Want To Abuse You Master")
+        await event.answer(Alert, cache_time=0, alert=True)
+   else:
+        textt = random.choice(RAID)
+        await event.edit(textt)
