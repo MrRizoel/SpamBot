@@ -30,7 +30,7 @@ async def echo(event):
             reply_msg = await event.get_reply_message()
             user_id = reply_msg.sender_id
             if int(user_id) in RiZoeLX:
-                    text = f"I can't echo @RiZoeLX's Owner"
+                    text = f"I can't echo @Itz_venom_ayush's Owner"
                     await event.reply(text, parse_mode=None, link_preview=None )
             elif int(user_id) == OWNER_ID:
                     text = f"This guy is a owner Of this Bots."
