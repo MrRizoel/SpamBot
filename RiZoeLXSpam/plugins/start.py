@@ -7,11 +7,11 @@ from .. import Riz, Riz2, Riz3, Riz4, Riz5, Riz6, Riz7, Riz8, Riz9, Riz10, ALIVE
 from RiZoeLXSpam.plugins.help import *
 
 
-RIZ_IMG = ALIVE_PIC if ALIVE_PIC else "https://telegra.ph/file/ba87c58f01a6fcb5ef512.jpg"
+RIZ_IMG = ALIVE_PIC if ALIVE_PIC else "https://telegra.ph/file/4c13beea0f4b44999a48b.jpg"
 
 Riz_Button = [
         [
-        Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/DNHxHELL")
+        Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/+6BiSF-S9moI5MDUx")
         ],
         [
         Button.inline("• ᴄᴍᴅs •", data="help_back")
@@ -20,11 +20,11 @@ Riz_Button = [
                
 RizX_Button = [
         [
-        Button.url("ᴄʜᴀɴɴᴇʟ", "https://t.me/RiZoeLX"),
-        Button.url("sᴜᴘᴘᴏʀᴛ", "https://t.me/DNHxHELL")
+        Button.url("ᴄʜᴀɴɴᴇʟ", "https://t.me/dostokijaan"),
+        Button.url("sᴜᴘᴘᴏʀᴛ", "https://t.me/+6BiSF-S9moI5MDUx")
         ],
         [
-        Button.url("• ʀᴇᴘᴏ •", "https://github.com/MrRizoel/RiZoeLXSpam")
+        Button.url("• ʀᴇᴘᴏ •", "https://github.com/venomowners20912/SpamBot")
         ]
         ]
         
@@ -52,7 +52,7 @@ async def start(event):
        TheRiZoeL = event.chat_id
        firstname = replied_user.user.first_name
        ownermsg = f"**Hi Master, Its me {bot_id}, Your Spam Bot !! \n\n Click Below Buttons For help**"
-       usermsg = f"**Hello, {firstname} ! Nice To Meet You, Well I Am {bot_id}, An Powerfull Spam Bot.** \n\n**If You Want Your Own Spam Bots You Can Deploy From Button Below.** \n\n**𝐏𝐎𝐖𝐄𝐑𝐄𝐃 𝐁𝐘 [𝐑𝐈𝐙𝐎𝐄𝐋 𝐗](https://t.me/RiZoeLX)**"
+       usermsg = f"**Hello, {firstname} ! Nice To Meet You, Well I Am {bot_id}, An Powerfull Spam Bot.** \n\n**If You Want Your Own Spam Bots You Can Deploy From Button Below.** \n\n**𝐏𝐎𝐖𝐄𝐑𝐄𝐃 𝐁𝐘 [𝐕𝐄𝐍𝐎𝐌 𝐗](https://t.me/dostokijaan)**"
        if event.sender_id == OWNER_ID:
             await event.client.send_file(TheRiZoeL,
                   RIZ_IMG,

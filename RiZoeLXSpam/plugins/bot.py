@@ -12,14 +12,14 @@ from telethon.tl.custom import button
 from time import time
 from datetime import datetime
 
-RIZ_PIC = ALIVE_PIC if ALIVE_PIC else "https://telegra.ph/file/ba87c58f01a6fcb5ef512.jpg"
+RIZ_PIC = ALIVE_PIC if ALIVE_PIC else "https://telegra.ph/file/4c13beea0f4b44999a48b.jpg"
   
 
-rizoel = "✯ 𝗥𝗶𝗭𝗼𝗲𝗟𝗫𝗦𝗽𝗮𝗺 𝗛𝗲𝗿𝗲 ✯\n\n"
+rizoel = "✯ 🔥𝐕𝐄𝐍𝐎𝐌🇽𝐒𝐏𝐀𝐌🔥 𝗛𝗲𝗿𝗲 ✯\n\n"
 rizoel += f"═══════════════════\n"
 rizoel += f"• **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ** : `3.9.6`\n"
 rizoel += f"• **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ** : `{version.__version__}`\n"
-rizoel += f"• **ʀɪᴢᴏᴇʟXsᴘᴀᴍ ᴠᴇʀsɪᴏɴ**  : `{rizoelversion}`\n"
+rizoel += f"• **ᴠᴇɴᴏᴍXsᴘᴀᴍ ᴠᴇʀsɪᴏɴ**  : `{rizoelversion}`\n"
 rizoel += f"═══════════════════\n\n"   
 
                                   
@@ -40,11 +40,11 @@ async def alive(event):
                                   caption=rizoel,
                                   buttons=[
         [
-        Button.url("ᴄʜᴀɴɴᴇʟ", "https://t.me/RiZoeLX"),
-        Button.url("sᴜᴘᴘᴏʀᴛ", "https://t.me/DNHxHELL")
+        Button.url("ᴄʜᴀɴɴᴇʟ", "https://t.me/dostokijaan"),
+        Button.url("sᴜᴘᴘᴏʀᴛ", "https://t.me/+6BiSF-S9moI5MDUx")
         ],
         [
-        Button.url("• ʀᴇᴘᴏ •", "https://github.com/MrRizoel/SpamBot")
+        Button.url("• ʀᴇᴘᴏ •", "https://github.com/venomowners20912/SpamBot")
         ]
         ]
         )
@@ -93,7 +93,7 @@ async def ping(e):
         event = await e.reply(text, parse_mode=None, link_preview=None )
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await event.edit(f"▒█▀▀█ ▒█▀▀▀█ ▀▀█▀▀\n▒█▀▀▄ ▒█░░▒█ ░▒█░░\n▒█▄▄█ ▒█▄▄▄█ ░▒█░░\n\nϟ ʀɪᴢᴏᴇʟ X sᴘᴀᴍ ϟ︎ `{ms}` ᴍs")
+        await event.edit(f"▒█▀▀█ ▒█▀▀▀█ ▀▀█▀▀\n▒█▀▀▄ ▒█░░▒█ ░▒█░░\n▒█▄▄█ ▒█▄▄▄█ ░▒█░░\n\nϟ 🔥𝐕𝐄𝐍𝐎𝐌🇽𝐒𝐏𝐀𝐌🔥 😈𝐑𝐄𝐀𝐃𝐘 𝐓𝐎 𝐅𝐔𝐂𝐊😈 ϟ︎ `{ms}` ᴍs")
         
         
 
@@ -109,7 +109,7 @@ async def ping(e):
 @Riz10.on(events.NewMessage(incoming=True, pattern=r"\%srestart(?: |$)(.*)" % hl))
 async def restart(e):
     if e.sender_id in SUDO_USERS:
-        text = "**Restarting Your RiZoeL X Spam**.. Please Wait Until It Starts Again"
+        text = "**Restarting Your 🔥𝐕𝐄𝐍𝐎𝐌🇽𝐒𝐏𝐀𝐌🔥**.. Please Wait Until It Starts Again"
         await e.reply(text, parse_mode=None, link_preview=None)
         try:
             await Riz.disconnect()
@@ -181,7 +181,7 @@ async def tb(event):
             newsudo = f"{sudousers} {target}"
         else:
             newsudo = f"{target}"
-        await ok.edit(f"**Added `{target}` ** as a sudo user 🔱 Restarting.. Please wait a minute...")
+        await ok.edit(f"**Added `{target}` ** as a sudo user 💢💢 Restarting.. Please wait a minute🔥...")
         heroku_var[rizoel] = newsudo   
    
      
