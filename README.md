@@ -13,6 +13,9 @@
 - [x] ☯︎ ғᴀsᴛ ᴀɴᴅ sᴛᴀʙʟᴇ ☯︎
 - [x] Deploy 10 Bots in One time 🔥
 - [x] Deploy Using Bot Token 
+- [x] Porn Spam | Hang Spam
+- [x] Inline Spam `new`
+
 
 # Deploy on heroku
 
