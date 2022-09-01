@@ -295,10 +295,10 @@ async def spam(e):
                 text = f"I can't raid on @RiZoeLX's Owner"
                 await e.reply(text, parse_mode=None, link_preview=None )
             elif int(g) == OWNER_ID:
-                text = f"This guy is a owner Of this Bots."
+                text = f"This guy is the owner Of these Bots."
                 await e.reply(text, parse_mode=None, link_preview=None )
             elif int(g) in SUDO_USERS:
-                text = f"This guy is a sudo user."
+                text = f"This guy is sudo user."
                 await e.reply(text, parse_mode=None, link_preview=None )
             else:
                 c = a.first_name
@@ -328,10 +328,10 @@ async def spam(e):
                 text = f"I can't raid on @RiZoeLX's Owner"
                 await e.reply(text, parse_mode=None, link_preview=None )
             elif int(g) == OWNER_ID:
-                text = f"This guy is a owner Of this Bots."
+                text = f"This guy is the owner Of these Bots."
                 await e.reply(text, parse_mode=None, link_preview=None )
             elif int(g) in SUDO_USERS:
-                text = f"This guy is a sudo user."
+                text = f"This guy is sudo user."
                 await e.reply(text, parse_mode=None, link_preview=None )
             else:
                 c = b.first_name
