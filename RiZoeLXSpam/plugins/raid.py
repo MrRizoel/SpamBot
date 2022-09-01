@@ -39,10 +39,10 @@ async def spam(e):
                 text = f"I can't raid on @RiZoeLX's Owner"
                 await e.reply(text, parse_mode=None, link_preview=None )
             elif int(g) == OWNER_ID:
-                text = f"This guy is a owner Of this Bots."
+                text = f"This guy is the owner Of these Bots."
                 await e.reply(text, parse_mode=None, link_preview=None )
             elif int(g) in SUDO_USERS:
-                text = f"This guy is a sudo user."
+                text = f"This guy is sudo user."
                 await e.reply(text, parse_mode=None, link_preview=None )
             else:
                 c = a.first_name
@@ -62,10 +62,10 @@ async def spam(e):
                 text = f"I can't raid on @RiZoeLX's Owner"
                 await e.reply(text, parse_mode=None, link_preview=None )
             elif int(g) == OWNER_ID:
-                text = f"This guy is a owner Of this Bots."
+                text = f"This guy is the owner Of these Bots."
                 await e.reply(text, parse_mode=None, link_preview=None )
             elif int(g) in SUDO_USERS:
-                text = f"This guy is a sudo user."
+                text = f"This guy is sudo user."
                 await e.reply(text, parse_mode=None, link_preview=None )
             else:
                 c = b.first_name
@@ -132,10 +132,10 @@ async def _(e):
                 text = f" can't raid on @RiZoeLX's Owner."
                 await e.reply(text, parse_mode=None, link_preview=None )
             elif int(user_id) == OWNER_ID:
-                text = f"This guy is a owner Of this Bots."            
+                text = f"This guy is the owner Of these Bots."            
                 await event.reply(text, parse_mode=None, link_preview=None )
             elif int(user_id) in SUDO_USERS:
-                text = f"This guy is a sudo user."
+                text = f"This guy is sudo user."
                 await e.reply(text, parse_mode=None, link_preview=None )
             else:
                 que[user_id] = []
@@ -153,10 +153,10 @@ async def _(e):
                 text = f" can't raid on @RiZoeLX's Owner."
                 await e.reply(text, parse_mode=None, link_preview=None )
             elif int(user_id) == OWNER_ID:
-                text = f"This guy is a owner Of this Bots."
+                text = f"This guy is the owner Of these Bots."
                 await event.reply(text, parse_mode=None, link_preview=None )
             elif int(user_id) in SUDO_USERS:
-                text = f"This guy is a sudo user."
+                text = f"This guy is sudo user."
                 await e.reply(text, parse_mode=None, link_preview=None )
             else:
                 que[user_id] = []
@@ -211,7 +211,8 @@ async def _(e):
             await e.reply(text, parse_mode=None, link_preview=None )
         else:
             await e.reply(usage, parse_mode=None, link_preview=None )
-    
+ 
+   
 @Riz.on(events.NewMessage(incoming=True, pattern=r"\%sdelayraid(?: |$)(.*)" % hl))
 @Riz2.on(events.NewMessage(incoming=True, pattern=r"\%sdelayraid(?: |$)(.*)" % hl))
 @Riz3.on(events.NewMessage(incoming=True, pattern=r"\%sdelayraid(?: |$)(.*)" % hl))
@@ -236,10 +237,10 @@ async def _(event):
                     text = f"I can't raid on @RiZoeLX's Owner"
                     await event.reply(text, parse_mode=None, link_preview=None )
              elif int(e) == OWNER_ID:
-                text = f"This guy is a owner Of this Bots."
+                text = f"This guy is the owner Of these Bots."
                 await event.reply(text, parse_mode=None, link_preview=None )
              elif int(e) in SUDO_USERS:
-                    text = f"This guy is a sudo user."
+                    text = f"This guy is sudo user."
                     await event.reply(text, parse_mode=None, link_preview=None )
              else:
                  c = a.first_name
@@ -260,10 +261,10 @@ async def _(event):
                        text = f"I can't raid on @RiZoeLX's Owner"
                        await event.reply(text, parse_mode=None, link_preview=None )
                elif int(e) == OWNER_ID:
-                       text = f"This guy is a owner Of this Bots."
+                       text = f"This guy is the owner Of these Bots."
                        await event.reply(text, parse_mode=None, link_preview=None )
                elif int(e) in SUDO_USERS:
-                       text = f"This guy is a sudo user."
+                       text = f"This guy is sudo user."
                        await event.reply(text, parse_mode=None, link_preview=None )
                else:
                    c = b.first_name
