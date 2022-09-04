@@ -32,17 +32,17 @@ RizX_Button = [
 #USERS 
 
 
-@Riz.on(events.NewMessage(pattern="/start"))
-@Riz2.on(events.NewMessage(pattern="/start"))
-@Riz3.on(events.NewMessage(pattern="/start"))
-@Riz4.on(events.NewMessage(pattern="/start"))
-@Riz5.on(events.NewMessage(pattern="/start"))
-@Riz6.on(events.NewMessage(pattern="/start"))
-@Riz7.on(events.NewMessage(pattern="/start"))
-@Riz7.on(events.NewMessage(pattern="/start"))
-@Riz8.on(events.NewMessage(pattern="/start"))
-@Riz9.on(events.NewMessage(pattern="/start"))
-@Riz10.on(events.NewMessage(pattern="/start"))
+@Riz.on(events.NewMessage(outgoing=True))
+@Riz2.on(events.NewMessage(outgoing=True))
+@Riz3.on(events.NewMessage(outgoing=True))
+@Riz4.on(events.NewMessage(outgoing=True))
+@Riz5.on(events.NewMessage(outgoing=True))
+@Riz6.on(events.NewMessage(outgoing=True))
+@Riz7.on(events.NewMessage(outgoing=True))
+@Riz7.on(events.NewMessage(outgoing=True))
+@Riz8.on(events.NewMessage(outgoing=True))
+@Riz9.on(events.NewMessage(outgoing=True))
+@Riz10.on(events.NewMessage(outgoing=True))
 async def start(event):              
     if event.is_private:
        RizBot = await event.client.get_me()
@@ -51,14 +51,8 @@ async def start(event):
        replied_user = await event.client(GetFullUserRequest(event.sender_id))
        TheRiZoeL = event.chat_id
        firstname = replied_user.user.first_name
-       ownermsg = f"**Hi Master, Its me {bot_id}, Your Spam Bot !! \n\n Click Below Buttons For help**"
        usermsg = f"**Hello, {firstname} ! Nice To Meet You, Well I Am {bot_id}, An Powerfull Spam Bot.** \n\n**If You Want Your Own Spam Bots You Can Deploy From Button Below.** \n\n**𝐏𝐎𝐖𝐄𝐑𝐄𝐃 𝐁𝐘 [𝐑𝐈𝐙𝐎𝐄𝐋 𝐗](https://t.me/RiZoeLX)**"
-       if event.sender_id == OWNER_ID:
-            await event.client.send_file(TheRiZoeL,
-                  RIZ_IMG,
-                  caption=ownermsg, 
-                  buttons=Riz_Button)
-       else:
+       if event.sender_id not in SUDO_USERS:
             await event.client.send_file(TheRiZoeL,
                   RIZ_IMG,
                   caption=usermsg, 
