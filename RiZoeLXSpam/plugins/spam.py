@@ -281,7 +281,7 @@ HAN = [
 @Riz9.on(events.NewMessage(incoming=True, pattern=r"\%sispam" % hl))
 @Riz10.on(events.NewMessage(incoming=True, pattern=r"\%sispam" % hl))
 async def spam(e):
-    usage = f"**Module Nake: Inline Spam** \n\nCommand:\n\n{hl}ispam <count> <Username Or reply to user>"
+    usage = f"**Module Name: Inline Spam** \n\nCommand:\n\n{hl}ispam <count> <Username Or reply to user>"
     if e.sender_id in SUDO_USERS:
         if e.text[0].isalpha() and e.text[0] in ("/", "#", "@", "!"):
             return await e.reply(usage, parse_mode=None, link_preview=None )
