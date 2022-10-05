@@ -1,19 +1,19 @@
 {
-    "name": "RIZOELXSPAM HERE.",
-    "description": "MOST POWERFUL + STABLE SPAM USERBOTS",
-    "logo": "https://telegra.ph/file/db194f99e15db50f43c72.jpg",
-    "keywords": [
+      "name": "SpamBot - RiZoeL",
+      "description": "A telethon Based Span Bots With Many Cmds Fast And Stable",
+      "logo": "https://telegra.ph/file/ec832fc9107fd21edfee3.jpg",
+      "keywords": [
         "telegram",
-        "telethon",
+        "Telethon",
         "telegram-bot",
         "RiZoeLXSpam",
         "SpamBots"
-    ],
-    "repository": "https://t.me/TheRiZoeL",
-    "website": "https://t.me/TheRiZoeL",
-    "success_url": "https://t.me/TheRiZoeL",
-    "env": {
-             "API_ID": {
+      ],   
+  "repository": "https://github.com/RiZoeLX/SpamX",
+  "website": "https://github.com/RiZoeLX",
+  "success_url": "https://t.me/RiZoeLX",
+  "env": {
+       "API_ID": {
         "description": "Fill Api ID Take this value from My.telegram.org",
         "value": "",
         "required": true
@@ -28,93 +28,85 @@
         "value": "",
         "required": true
       },
-     "CMD_HNDLR": {
-            "description": "Custom command handler.",
-            "value": "!",
-            "required": false
-        },
       "BOT_TOKEN": {
-        "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
+        "description": "Bot token",
         "value": "",
         "required": true
       },
       "BOT_TOKEN2": {
-        "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
+        "description": "Bot token",
         "value": "",
         "required": true
       },
       "BOT_TOKEN3": {
-        "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
+        "description": "Bot token",
         "value": "",
         "required": true
       },
       "BOT_TOKEN4": {
-        "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
+        "description": "Bot token",
         "value": "",
         "required": true
       },
       "BOT_TOKEN5": {
-        "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
+        "description": "Bot token",
         "value": "",
         "required": true
       },
       "BOT_TOKEN6": {
-        "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
+        "description": "Bot token",
         "value": "",
         "required": true
       },
       "BOT_TOKEN7": {
-        "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
+        "description": "Bot token",
         "value": "",
         "required": true
       },
       "BOT_TOKEN8": {
-        "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
+        "description": "Bot token",
         "value": "",
         "required": true
       },
       "BOT_TOKEN9": {
-        "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
+        "description": "Bot token",
         "value": "",
         "required": true
       },
       "BOT_TOKEN10": {
-        "description": "Telegram Bot Token Get This value from https://t.me/BotFather",
+        "description": "Bot token",
         "value": "",
         "required": true
       },
-       "SUDO_USER": {
-            "description": "Sudo users id space by space",
+      "SUDO_USER": {
+            "description": "Sudo users id space by space or leave blank",
             "value": "",
             "required": false
         },
       "OWNER_ID": {
-            "description": "owner Id",
+            "description": "Sudo users id space by space",
             "value": "",
             "required": true
         },
-        "HEROKU_API_KEY": {
+      "HEROKU_API_KEY": {
             "description": "Your Heroku api key to update your bot",
             "value": "",
             "required": false 
         },
-        "HEROKU_APP_NAME": {
+       "HEROKU_APP_NAME": {
             "description": "Your app name to Update your bot",
           "value": "",
           "required": false  
+        },
+      "CMD_HNDLR": {
+            "description": "Your Spam Userbot's Command handler",
+            "value": ".",
+            "required": false  
         }
     },
-  "addons": [
-    {
-      "plan": "heroku-postgresql",
-      "options": {
-        "version": "12"
-      }
-    }
-  ],
-  "buildpacks": [
+    "buildpacks": [
         {
-            "url": "heroku/python"
+          "url": "heroku/python"
         }
     ]
 }
