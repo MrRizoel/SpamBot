@@ -93,21 +93,21 @@ async def spam(e):
                           await smex.reply(message)
                      else:
                           await e.client.send_message(e.chat_id, message)
-                 await asyncio.sleep(0.3)
+                 await asyncio.sleep(0.5)
         elif e.reply_to_msg_id and smex.media:  
             counter = int(rizoel[0])
             for _ in range(counter):
                 async with e.client.action(e.chat_id, "document"):
                     smex = await e.client.send_file(e.chat_id, smex, caption=smex.text)
                     await gifspam(e, smex) 
-                await asyncio.sleep(0.3)  
+                await asyncio.sleep(0.5)
         elif e.reply_to_msg_id and smex.text:
             message = smex.text
             counter = int(rizoel[0])
             for _ in range(counter):
                 async with e.client.action(e.chat_id, "typing"):
                     await e.client.send_message(e.chat_id, message)
-                    await asyncio.sleep(0.3)
+                    await asyncio.sleep(0.5)
         else:
             await e.reply(usage, parse_mode=None, link_preview=None )
 
@@ -187,7 +187,7 @@ async def pspam(e):
                      async with e.client.action(e.chat_id, "document"):
                          smex = await e.client.send_file(e.chat_id, porrn)
                          await gifspam(e, smex) 
-                     await asyncio.sleep(0.4)
+                     await asyncio.sleep(0.5)
         else:
             usage = f"**MODULE NAME : PORN SPAM** \n\n command: `{hl}pornspam <count>`"
             await e.reply(usage, parse_mode=None, link_preview=None )
@@ -252,7 +252,7 @@ async def packspam(e):
             for xx in docs:
                 async with e.client.action(e.chat_id, "document"):
                     await e.client.send_file(e.chat_id, file=(xx))
-                    await asyncio.sleep(0.3)
+                    await asyncio.sleep(0.5)
         except Exception as xy:
             print(str(xy))
             usage = f"**Module Name : Pack Spam** \n\n cmd: `{hl}packspam (replying to any sticker)`"
