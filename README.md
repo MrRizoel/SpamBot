@@ -23,9 +23,7 @@
 
 > kindly Watch [this video](https://t.me/Resourcez/9) for deploy process 
 
-# Support & Updates
-* [Channel](https://t.me/RiZoeLX)
-* [Support Group](https://t.me/DNHcHELL)
+
 
 # Credits
 * [RiZoeL](https://github.com/MrRizoel)
