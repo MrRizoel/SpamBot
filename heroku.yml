@@ -1,5 +1,18 @@
 build:
-  docker:
-    Riz: Dockerfile
+  docker:'102.89.0.0 - 102.89.31.255'
+
+% No abuse contact registered for 102.89.0.0 - 102.89.31.255
+
+inetnum: 102.89.0.0 - 102.89.31.255
+netname: MTNN-OJOTA-REGION-PREFIXES
+descr: MTNN-OJOTA-REGION-PREFIXES
+country: NG
+admin-c: BRM1-AFRINIC
+tech-c: ISP1-AFRINIC
+status: ASSIGNED PA
+mnt-by: MTNNIGERA1-MNT
+source: AFRINIC # Filtered
+parent: 102.88.0.0 - 102.95.255.255
+k=b.createElement("script"),l,o,e=e||B.errorTimeout;k.src=a;for(o in d)k.setAttribute(o,d[o]);c=j?h:c||f,k.onreadystatechange=k.onload=function(){!l&&g(k.readyState)&&(l=1,c(),k.onload=k.onreadystatechange=null)},m(function(){l||(l=1,c(1))},e),i?k.onload():n.parentNode.insertBefore(k,n)},a.yepnope.injectCss=function(a,c,d,e,g,i){var e=b.createElement("link"),j,c=i?h:c||f;e.href=a,e.rel="stylesheet",e.type="text/css";for(j in d)e.setAttribute(j,d[j]);g||(n.parentNode.insertBefore(e,n),m(c,0))}}(this,document),Modernizr.load=function(){yepnope.apply(window,[].slice.call(arguments,0))};    Riz: Dockerfile
 run:
   Riz: python3 -m RiZoeLXSpam
